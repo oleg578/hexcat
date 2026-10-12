@@ -24,7 +24,7 @@
                     <arguments>
                         <argument>-classpath</argument>
                         <classpath/>
-                        <argument>org.example.Main</argument>
+                        <argument>org.example.HexCat</argument>
                     </arguments>
                 </configuration>
             </plugin>
