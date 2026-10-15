@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 
 class Solution {
-    public String longestCommonPrefix(String[] strs) {
-        return Arrays.stream(strs)
+    public String longestCommonPrefix(String[] words) {
+        return Arrays.stream(words)
                 .reduce(
                         (a, b) -> a.substring(0,
                                 (int) IntStream.range(0, Math.min(a.length(), b.length()))
